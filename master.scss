@@ -1,3 +1,6 @@
+@import "./css/_about.scss";
+@import "./css/_gallery.scss";
+
 $aside-img-height: 12.5rem;
 $grid-gap-base: 2rem;
 $margin-base: 10px;
@@ -12,6 +15,7 @@ $padding-base: 1.5rem;
 body {
   font-family: "Josefin Sans", sans-serif;
 }
+
 .content {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
